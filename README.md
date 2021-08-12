@@ -12,6 +12,11 @@ Google Colab
 * torch
 * transformers
 * math
+### Visuals
+Here is the code snippet of main model used in this project.
+<br/>
+![alt text](https://github.com/Uday-Samineni97/Assessing-impactful-words-from-short-texts-in-Visual-Media/blob/main/Model.png)
+<br/>
 ### Instructions to run code/Installation
 Assessing_short_texts_importance.ipynb file is a colab notebook.
 <br/>
@@ -35,4 +40,14 @@ Make sure to change the TRAINING_FILE<TESTING_FILE and DEV_FILE pointing to the 
 Run all the cells.
 ### Usage
 I have assigned 6 epochs and each epoch takes nearly 40 minutes. so, once the code runs, model predicts the top 5 words of the each senetence from the input data.
-The sample output is shown below:
+You can run the model on any dataset by changing the path of TRAINING_FILE,TESTING_FILE and DEV_FILE to the corresponding input files.
+<br/>
+The sample output with ground truth probabilities on left and predicted values on right is shown below:
+<br/>
+<br/>
+![alt text](https://github.com/Uday-Samineni97/Assessing-impactful-words-from-short-texts-in-Visual-Media/blob/main/output.png)
+### Support
+I would be happy to coloborate to work on future enhancements or other improvements.
+Interested? Email me at: <udaysamineni2016@gmail.com>
+### Future work and enhancements
+In this project, I have worked only on the english reviews. I am planning to extend the implementation with reviews from other languages like chineese etc...
