@@ -13,3 +13,26 @@ Google Colab
 * transformers
 * math
 ### Instructions to run code/Installation
+Assessing_short_texts_importance.ipynb file is a colab notebook.
+<br/>
+<br/>
+1.To run the notebook make sure the runtime is selected to GPU.
+<br/>
+<br/>
+2.Install transformers library
+```bash 
+pip3 install transformers
+```
+3.Install torch library
+```bash 
+pip3 install torch
+```
+4.Install numpy library
+```bash 
+pip3 install numpy
+```
+Make sure to change the TRAINING_FILE<TESTING_FILE and DEV_FILE pointing to the files from the "Dataset" folder.
+Run all the cells.
+### Usage
+I have assigned 6 epochs and each epoch takes nearly 40 minutes. so, once the code runs, model predicts the top 5 words of the each senetence from the input data.
+The sample output is shown below:
